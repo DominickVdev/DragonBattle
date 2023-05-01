@@ -1,0 +1,56 @@
+/* Battle Game project 04/23/2023 Dominick Vera */
+
+/* font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive; */ 
+
+
+body {
+	background-image: url("castle.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	color: cornsilk;
+	font-size: 4.5em;
+	text-align: center;
+	text-shadow: darkred 2px 3px 2px, black -4px -2px 1px;
+	margin-top: 8%;
+}
+div#button {
+	background-color: darkred;
+	width: 30%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.2em;
+	color: cornsilk;
+	border-radius: 30px;
+}
+div#button:hover {
+	background-color: cornsilk;
+	color: darkorange;
+	text-shadow: black 2px 3px 2px;
+	cursor: crosshair;
+	transition: all 1s;
+}
+h2#victory {
+	font-family: 'Coda Caption', sans-serif;
+	color: greenyellow;
+	font-size: 2.7em;
+	text-align: center;
+	text-shadow: black 3px 3px 1px;
+}
+h2#defeat {
+	font-family: 'Freckle Face', cursive;
+	text-align: center;
+	color: firebrick;
+	font-size: 3.5em;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
